@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-repeat: no-repeat;
+    background-image: url(../Imagenes/DYA1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+ 
+}
+
+header{
+    background-color: #0b2b55;
+    width: auto;
+    height: 50%;
+    padding: 50 px 0;
+    height: 60px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
+    position: static;
+
+    
+}
+.h21{
+    position: absolute ;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    top: 25px;
+    left: 195px;
+
+}
+.user-detail{
+    position: absolute;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    top: 25px;
+    right: 195px;
+
+}
+
+
+.btn {
+    height: 60px;
+    padding: 10px 60px;
+    background-color: #0b2b55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn {
+    background-color: #157712;
+  }
+  .btn:active {
+    background-color: #000000;
+  }
+  .btn1 {
+    height: 60px;
+    padding: 10px 60px;
+    background-color: #8f0a0a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn1 {
+    background-color: #8f0a0a;
+  }
+  .btn1:active {
+    background-color: #000000;
+  }
+  .buttons{
+    position: absolute;
+    left: 35%;
+
+
+  }
+  .Button-container{
+    position: absolute;
+    right: 35%;
+  }
+  /******
+  **/
+  .form-register{
+    width: 600px;
+    background: #0b2b55;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+  }
+  .form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+  }
+  .Controls{
+    width: 100%;
+    background: #0b2b55;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  img{
+    position: absolute;
+    top: 7px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+  }
+  .Placa{
+    text-transform: uppercase;
+  }
+  .Placa::placeholder{
+    text-transform: none;
+  }
