@@ -9,7 +9,7 @@ body {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     background-repeat: no-repeat;
-    background-image: url(../Imagenes/DYA1.jpg);
+    background-image: url(../images/DYA1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,9 +121,9 @@ header{
     height: 50px;
     width: 50px;
   }
-  .Placa{
+  #Placa{
     text-transform: uppercase;
   }
-  .Placa::placeholder{
+  #Placa::placeholder{
     text-transform: none;
   }

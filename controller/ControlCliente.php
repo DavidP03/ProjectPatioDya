@@ -17,7 +17,9 @@
 
             $conexion = new ConexionBd();
 
-            $conexion->abrirConexion($_SERVER, $);
+            $conexion->abrirConexion($GLOBALS['serv'], $GLOBALS['usua'],$GLOBALS['pass'],$GLOBALS['bdat'],$GLOBALS['port']);
+            $conexion->ejecutarComandoSql($sql);
+            $conexion->cerrarConexion();
         }
     }
 ?>
